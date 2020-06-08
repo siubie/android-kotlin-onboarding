@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LoginAndRegistration</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello Login fragment</string>
+    <string name="slogan">
+        Digital Banking that\nworks for \nyou
+        </string>
+    <string name="log_in">Log In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="app_tittle">Swifza</string>
+</resources>
