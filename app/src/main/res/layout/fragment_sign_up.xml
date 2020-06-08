@@ -4,15 +4,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:context=".ui.signup.SignUpFragment">
 
-    <FrameLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/lightBlue"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
         <!-- TODO: Update blank fragment layout -->
         <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:text="@string/hallo_from_sign_up_fragment" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/hallo_from_sign_up_fragment"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="20sp"
+            android:textColor="@color/txtWhite"
+            />
 
-    </FrameLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>
