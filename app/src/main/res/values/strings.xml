@@ -9,4 +9,6 @@
     <string name="log_in">Log In</string>
     <string name="sign_up">Sign Up</string>
     <string name="app_tittle">Swifza</string>
+    <string name="hallo_from_sign_up_fragment">Hallo From Sign Up Fragment</string>
+    <string name="hello_from_login_fragment">Hello from Login Fragment</string>
 </resources>
