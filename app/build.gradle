@@ -6,8 +6,11 @@ apply plugin: "androidx.navigation.safeargs.kotlin"
 android {
     compileSdkVersion 29
     buildToolsVersion "29.0.3"
-    dataBinding.enabled = true
-    viewBinding.enabled = true
+
+    buildFeatures {
+        dataBinding = true
+        viewBinding = true
+    }
     defaultConfig {
         applicationId "id.putraprima.onboarding"
         minSdkVersion 21
